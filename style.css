@@ -1,0 +1,42 @@
+.card {
+  /*Doesn't resize like the horizontal space between cards.*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 30px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+main{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.border-numbers span {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.test {
+  width: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.testt {
+  position: absolute;
+  left:0px;
+  right:0px;
+  font-size: 24px;
+}
+
+iframe {
+  margin-top:10px;
+}
+
+img {
+  width: 240px;
+}
