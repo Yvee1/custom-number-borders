@@ -6,6 +6,8 @@
   max-width:1000px;
   padding-left:20px;
   padding-right:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -22,16 +24,20 @@
 
 .col-4, .col-12{
   width: 100%;
-  padding-left: 1.041666666666667%;
-  padding-right: 1.041666666666667%;
+  padding-left: 2.08333333333333%;
+  padding-right: 2.08333333333333%;
+  padding-bottom:20px;
   float:left;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width : 640px ){
 .col-4 {
   width: 33.333333333%;
 }
 .col-12 {
   width: 100%;
 }
+}
+video {
+  width: 100%;
 }

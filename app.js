@@ -1,7 +1,4 @@
-//document.fonts.ready.then(doAllTheThings);
-$(window).bind("load", function() {
-  doAllTheThings();
-});
+document.fonts.ready.then(doAllTheThings);
 
 function doAllTheThings() {
   $(window).resize(makeBorderOfNumbers);
