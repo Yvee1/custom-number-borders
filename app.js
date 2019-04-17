@@ -1,4 +1,7 @@
 document.fonts.ready.then(doAllTheThings);
+$(window).on("load", function() {
+  doAllTheThings();
+});
 
 function doAllTheThings() {
   $(window).resize(makeBorderOfNumbers);
@@ -21,7 +24,6 @@ function makeBorderOfNumbers() {
     const num_width = 14.41;
     const num_height = 32;
 
-    console.log(target.outerHeight());
     let hz_space = parseInt($('#hz-slider').val());
     let amt = target.outerWidth() / (num_width + hz_space) + 1
     let nmb = Math.floor(amt);
